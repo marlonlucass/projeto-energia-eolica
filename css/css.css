@@ -1,0 +1,344 @@
+body {
+    background-color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #48b158; 
+    padding: 15px 50px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffe600;
+}
+
+.logo span {
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 30px;
+}
+
+.navbar a {
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #95D5B2 !important; 
+    text-decoration: none;
+    font-style: normal;
+}
+
+.td1 {
+    text-align: center;
+    border-right: 2px solid #8f8e8e;
+    padding-right: 40px;
+    padding-left: 50px;
+}
+
+.td1 img {
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.td1 a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+    text-decoration: none;
+}
+
+.td1 a:hover {
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+}
+
+.td2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+h1 {
+    color: #48b158;
+    text-decoration: underline;
+}
+
+h2, h3 {
+    padding-left: 50px;
+    color: #48b158;
+}
+
+.p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.turbina {
+    text-align: center;
+}
+
+.turbina img {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.turbina a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15;
+    text-decoration: none;
+}
+
+.turbina a:hover {
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15;
+}
+
+ul {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.video-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-link img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.video-link img:hover {
+    transform: scale(1.05);
+}
+
+.pp {
+    text-align: center  ;
+}
+
+.comparativo {
+    padding: 40px 50px;
+}
+
+.comparativo h3 {
+    color: #48b158;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comparativo table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+    margin-top: 10px;
+}
+
+.comparativo th, .comparativo td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+}
+
+.comparativo th {
+    background-color: #48b158;
+    color: white;
+}
+
+.comparativo tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cria um efeito "zebrado" para facilitar a leitura */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+    margin-bottom: 30px;
+}
+
+.opcao {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    background-color: #48b158;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.opcao:hover {
+    background-color: #368a44;
+    transform: scale(1.05);
+}
+
+section {
+    min-height: 80vh; 
+}
+
+.corpo2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.corpo2 h1 {
+    color: #48b158;
+    text-decoration: underline;
+}
+
+.td3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+.td4 {
+    text-align: center;
+    border-left: 2px solid #8f8e8e;
+    padding-right: 40px;
+    padding-left: 50px;
+}
+
+.td4 img {
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.td4 a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.td4 a:hover {
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.ppp {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.turbina2 {
+    text-align: center;
+}
+
+.turbina2 img {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.turbina2 a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+    text-decoration: none;
+}
+
+.turbina2 a:hover {
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+}
+
+.div1 {
+    text-align: center;
+}
+
+.div1 img {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.div1 a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+    text-decoration: none;
+}
+
+.div1 a:hover {
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+}
+
+.div2 {
+    text-align: center;
+}
+
+.div2 img {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.div2 a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+    text-decoration: none;
+}
+
+.div2 a:hover {
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+}
+
+.psection {
+    padding-left: 50px;
+    padding-right: 50px;
+}
