@@ -6,7 +6,6 @@
     <title>Eólica Brasil</title>
 </head>
 <body>
-
     <header class="navbar">
         <div class="logo">Eólica<span>Brasil</span></div>
         <nav>
@@ -17,7 +16,6 @@
             </ul>
         </nav>
     </header>
-
     <table>
         <tr>
             <td class="td1">
@@ -51,9 +49,7 @@
             </td>
         </tr>
     </table><br>
-
     <h2>Como elas Funcionam?</h2><br>
-
     <p class="p">Os aerogeradores, frequentemente chamados de "cataventos enormes", são equipamentos criados com o objetivo de
         transformar a força do movimento do ar em eletricidade. Tudo se inicia quando o vento encontra as hélices do
         aerogerador, estabelecendo uma disparidade de pressão que as impulsiona a girar. Essa rotação é enviada por
@@ -166,7 +162,6 @@
         </td>
       </tr>
     </table><br>      <br>
-
     <div class="menu">
         <a href="#onshore-section" class="opcao">Energia Onshore</a>
         <a href="#offshore-section" class="opcao">Energia Offshore</a>
@@ -276,7 +271,6 @@
     </tbody>
   </table>
 </section>
-
 </body>
 </html>
 <!DOCTYPE html>
@@ -374,6 +368,44 @@
         </td>
       </tr>
     </table> 
+<table border="1">
+    <caption>Tabela: Ranking GWEC 2023 (capacidade total instalada)</caption>
+    <tr>
+        <th>Posição</th>
+        <th>País</th>
+        <th>Capacidade</th>
+    </tr>
+    <tr>
+        <td>1º</td>
+        <td>China</td>
+        <td>441,9</td>
+    </tr>
+    <tr>
+        <td>2º</td>
+        <td>Estados Unidos</td>
+        <td>148,0</td>
+    </tr>
+    <tr>
+        <td>3º</td>
+        <td>Alemanha</td>
+        <td>69,5</td>
+    </tr>
+    <tr>
+        <td>4º</td>
+        <td>Índia</td>
+        <td>44,7</td>
+    </tr>
+    <tr>
+        <td>5º</td>
+        <td>Espanha</td>
+        <td>31,0</td>
+    </tr>
+    <tr>
+        <td>6º</td>
+        <td>Brasil</td>
+        <td>29,2</td>
+    </tr>
+</table>
 </body>
 </html>
 
