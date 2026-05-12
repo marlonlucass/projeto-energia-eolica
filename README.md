@@ -12,7 +12,7 @@
             <ul>
                 <li><a href="../paginas/EólicaBrasil.html">Início</a></li>
                 <li><a href="../paginas/pag2.html">Tecnologia</a></li>
-                <li><a href="#cenario">Cenário Nacional</a></li>
+                <li><a href="../paginas/pag3.html">Cenário Nacional</a></li>
             </ul>
         </nav>
     </header>
@@ -21,7 +21,7 @@
             <td class="td1">
                 <br>
                 <img src="../imagens/img1.png"><br><br>
-                <a href="https://windbox.com.br/blog/componentes-dos-aerogeradores/" target="_blank">
+                <a href="../imagens/img1.png" target="_blank">
                     https://windbox.com.br/blog/componentes-dos-aerogeradores/</a>
             </td>
             <td class="td2">
@@ -58,11 +58,11 @@
         <br>
     <div class="turbina">
         <img src="../imagens/img2.png"><br><br>
-        <a href="https://leonardo-energy.org.br/noticias/eolica-cresce-25-no-primeiro-semestre-de-2017-e-aumenta-participacao-na-matriz-energetica/" target="_blank">
+        <a href="../imagens/img2.png" target="_blank">
             https://leonardo-energy.org.br/noticias/</a>
     </div>    
         <br><br>
-        <ul>
+        <ul class="ul_pag1">
             <li><strong>Pás:</strong> As pás, com seu formato aerodinâmico que lembra as asas de aviões, são projetadas
                  para receber o vento. Elas transformam a energia do vento, que se move em linha reta, em um movimento
                   circular.</li>
@@ -110,6 +110,7 @@
 </body>
 
 </html>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -125,7 +126,7 @@
             <ul>
                 <li><a href="../paginas/EólicaBrasil.html">Início</a></li>
                 <li><a href="../paginas/pag2.html">Tecnologia</a></li>
-                <li><a href="#cenario">Cenário Nacional</a></li>
+                <li><a href="../paginas/pag3.html">Cenário Nacional</a></li>
             </ul>
         </nav>
     </header>
@@ -157,11 +158,13 @@
         <td class="td4">
           <br>
           <img src="../imagens/img3.png"><br>
-          <a href="https://jornal.usp.br/universidade/turbinas-eolicas-flutuantes-poderao-gerar-energia-para-plataformas-petroliferas-no-brasil/" target="_blank">
+          <a href="../imagens/img3.png" target="_blank">
           https://jornal.usp.br/universidade/plataformas-no-brasil/</a>
         </td>
       </tr>
-    </table><br>      <br>
+    </table>      
+    <br>
+    <br>
     <div class="menu">
         <a href="#onshore-section" class="opcao">Energia Onshore</a>
         <a href="#offshore-section" class="opcao">Energia Offshore</a>
@@ -179,7 +182,7 @@
       <br><br>
       <div class="turbina2">
           <img src="../imagens/img4.png"><br><br>
-          <a href="https://www.imoa.info/news-events-blog/blog-details.php?objectID=675&lang=en">
+          <a href="../imagens/img4.png" target="_blank">
           https://www.imoa.info/news-events-blog/blog-details.php?objectID=675&lang=en</a>
       </div>
       <br><br>
@@ -192,11 +195,11 @@
           <br>
           <div class="div1">
             <img src="../imagens/img5.png"><br><br>
-            <a href="https://www.iberdrola.com/quem-somos/geracao-eletrica-power/energia-eolica-onshore">
+            <a href="../imagens/img5.png" target="_blank">
             https://www.iberdrola.com/quem-somos/geracao-eletrica-power/onshore</a>
           </div>
           <br>
-          <ul>
+          <ul class="ul_pag2">
             <li><strong>Vantagens:</strong> O custo de instalação e manutenção é significativamente menor do que no mar. A 
               infraestrutura necessária para conectar os aerogeradores à rede elétrica nacional já é bem conhecida e de 
               fácil acesso. Além disso, o tempo de construção de um parque eólico terrestre é relativamente curto.</li>
@@ -219,11 +222,11 @@
           <br>
           <div class="div2">
             <img src="../imagens/img6.png"><br><br>
-            <a href="https://modalconnection.com.br/sustentabilidade/oportunidades-de-logistica-nos-parques-eolicos-offshore/">
+            <a href="../imagens/img6.png" target="_blank">
             https://modalconnection.com.br/sustentabilidade/offshore/</a>
           </div>
           <br>
-          <ul>
+          <ul class="ul_pag2">
             <li><strong>Vantagens:</strong> A eficiência é o grande diferencial. Uma única turbina offshore de última geração 
               pode produzir muito mais eletricidade do que várias turbinas terrestres juntas. Como estão longe da costa, o 
               impacto visual e o ruído não incomodam as populações urbanas. Além disso, elas podem ser instaladas perto de 
@@ -271,8 +274,10 @@
     </tbody>
   </table>
 </section>
+
 </body>
 </html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -307,7 +312,7 @@
     <br>
     <div class="div3">
             <img src="../imagens/img8.png"><br>
-            <a href="https://abeeolica.org.br/">
+            <a href="../imagens/img8.png" target="_blank">
                 https://abeeolica.org.br/</a>
     </div>
     <br>
@@ -330,7 +335,7 @@
     <p class="p_pag3">Tendo em conta a eficiência das turbinas e os ganhos que o Brasil tem, é crucial ressaltar 
         os elementos que fazem da energia eólica algo tão importante para a nossa produção de energia.</p>
     <br>
-        <table>
+    <table>
       <tr>
         <td class="td5">
           <ul>
@@ -363,49 +368,110 @@
         <td class="td6">
           <br>
           <img src="../imagens/img9.png"><br>
-          <a href="https://www.magnific.com/br/fotos/energia-moinho-vento/3" target="_blank">
+          <a href="../imagens/img9.png" target="_blank">
           https://www.magnific.com/br/fotos/energia-vento/</a>
         </td>
       </tr>
-    </table> 
-<table border="1">
-    <caption>Tabela: Ranking GWEC 2023 (capacidade total instalada)</caption>
-    <tr>
+    </table>
+      <br><br>
+      <h2>Desafios e Limitações</h2>
+      <br>
+      <p class="p_pag3">A energia eólica é vital para um futuro sustentável, mas o Brasil enfrenta percalços ao adotá-la. Para usufruirmos 
+        plenamente dos nossos ventos, devemos encarar desafios técnicos, ambientais e logísticos. Estes desafios colocam à 
+        prova a viabilidade e a integração da tecnologia eólica no país.</p>
+      <br>  
+        <table>
+            <br>
+            <tr>
+                <td class="td7">
+                    <img src="../imagens/img7.png">
+                    <a href ="../imagens/img7.png" target="_blank">
+                        https://pt.pngtree.com/freebackground/.html</a>
+                </td>
+                <td class="td8">
+                    <ul>
+                        <ol><strong>Dependência Tecnológica e de Insumos:</strong> Apesar de produzirmos grande parte dos
+                             componentes localmente, o Brasil ainda precisa importar itens essenciais e tecnologias avançadas. 
+                             As variações nas taxas de câmbio (principalmente a alta do dólar) aumentam os gastos com a 
+                             construção e as peças de substituição, afetando o custo total do empreendimento.</ol>
+                        <br>                        
+                        <ol><strong>Choques no Uso da Terra e seus Efeitos na Sociedade:</strong> Em alguns lugares, a criação 
+                            de parques pode gerar atritos com povos nativos, comunidades remanescentes de escravos ou trabalhadores 
+                            da pesca. A delimitação de espaços por motivos de proteção pode restringir o trânsito por rotas antigas 
+                            ou locais de sustento, o que demanda acordos sociais delicados.</ol>
+                        <br>
+                        <ol><strong>Destinação das Hélices ao Final da Sua Utilidade:</strong> Apesar da torre ser quase toda 
+                            reaproveitável, as hélices são produzidas com materiais mistos (fibra de vidro e resina), o que dificulta 
+                            sua reciclagem. Com os primeiros parques eólicos do país se aproximando dos 20 anos, o Brasil começa a 
+                            lidar com o problema ambiental e de transporte para dar um fim adequado ou reutilizar essas grandes 
+                            estruturas.</ol>
+                        <br>
+                        <ol><strong>Impacto na vida selvagem:</strong> As turbinas eólicas podem ser perigosas para aves e morcegos, 
+                            principalmente quando instaladas em áreas de passagem migratória. Para minimizar esse risco, o processo de 
+                            licenciamento ambiental requer análises detalhadas do local e pode empregar tecnologias, como sensores que 
+                            identificam a presença de animais e diminuem a rotação das hélices de forma automática.</ol>
+                        <br>
+                        <ol><strong>Variação Eólica:</strong> A geração de eletricidade a partir do vento está sujeita a flutuações, 
+                            já que sua força muda constantemente, tanto em curtos períodos quanto em diferentes épocas do ano. Para lidar 
+                            com essa inconstância, o sistema precisa de outras opções (usinas de água ou a carvão, por exemplo) ou estocar 
+                            energia em baterias potentes para suprir a demanda quando não houver vento.</ol>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <h2>Ranking Global de Capacidade Eólica</h2>
+        <br>
+        <p class="p_pag3">Para compreendermos a magnitude da produção brasileira, é essencial olhar para além das nossas fronteiras. O Brasil 
+            não apenas entrou no mapa da energia limpa, mas hoje disputa espaço com as maiores potências econômicas do mundo. A tabela a 
+            seguir apresenta o ranking global de capacidade instalada, revelando onde o nosso país se posiciona nessa corrida tecnológica e 
+            sustentável pela liderança dos ventos.</p>
+        <br>
+
+    <section class="comparativo_pag3">
+  <h3>Ranking Global de Capacidade Eólica</h3>
+  <table>
+    <thead>
+      <tr>
         <th>Posição</th>
         <th>País</th>
-        <th>Capacidade</th>
-    </tr>
-    <tr>
+        <th>Capacidade (GW)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
         <td>1º</td>
-        <td>China</td>
+        <td><img src="../imagens/bandeiras/china.webp" width="40" alt="China"> China</td>
         <td>441,9</td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>2º</td>
-        <td>Estados Unidos</td>
+        <td><img src="../imagens/bandeiras/us.webp" width="40" alt="EUA"> Estados Unidos</td>
         <td>148,0</td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>3º</td>
-        <td>Alemanha</td>
+        <td><img src="../imagens/bandeiras/alemanha.webp" width="40" alt="Alemanha"> Alemanha</td>
         <td>69,5</td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>4º</td>
-        <td>Índia</td>
+        <td><img src="../imagens/bandeiras/india.webp" width="40" alt="Índia"> Índia</td>
         <td>44,7</td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>5º</td>
-        <td>Espanha</td>
+        <td><img src="../imagens/bandeiras/espanha.webp" width="40" alt="Espanha"> Espanha</td>
         <td>31,0</td>
-    </tr>
-    <tr>
+      </tr>
+      <tr class="destaque-brasil">
         <td>6º</td>
-        <td>Brasil</td>
+        <td><img src="../imagens/bandeiras/brasil.webp" width="40" alt="Brasil"> Brasil</td>
         <td>29,2</td>
-    </tr>
-</table>
+      </tr>
+    </tbody>
+  </table>
+</section>
 </body>
 </html>
 
@@ -540,7 +606,17 @@ h2, h3 {
     font-size: 15;
 }
 
-ul {
+.ul_pag1 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ul_pag2 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ul_pag3 {
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -577,7 +653,7 @@ ul {
 
 .comparativo table {
     width: 100%;
-    border-collapse: collapse; /* Remove espaços entre as bordas */
+    border-collapse: collapse;
     margin-top: 10px;
 }
 
@@ -593,7 +669,7 @@ ul {
 }
 
 .comparativo tr:nth-child(even) {
-    background-color: #f9f9f9; /* Cria um efeito "zebrado" para facilitar a leitura */
+    background-color: #f9f9f9; 
 }
 
 html {
@@ -708,6 +784,8 @@ section {
 .div1 img {
     background-color: #ffffff;
     border-radius: 10px;
+    width: 700px;
+    height: auto;
 }
 
 .div1 a {
@@ -732,6 +810,8 @@ section {
 .div2 img {
     background-color: #ffffff;
     border-radius: 10px;
+    width: 700px;
+    height: auto;
 }
 
 .div2 a {
@@ -752,4 +832,175 @@ section {
 .psection {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.h1_pag3 {
+    padding-left: 50px;
+}
+
+.p_pag3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.div3 {
+    text-align: center;
+}
+
+.div3 img {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+}
+
+.div3 a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+    text-decoration: none;
+}
+
+.div3 a:hover {
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+}
+
+.td5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+.td6 {
+    text-align: center;
+    border-left: 2px solid #8f8e8e;
+    padding-right: 40px;
+    padding-left: 50px;
+}
+
+.td6 img {
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.td6 a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.td6 a:hover {
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.td7 {
+    text-align: center;
+    border-right: 2px solid #8f8e8e;
+    padding-right: 10px;
+    padding-left: 1px;
+}
+
+.td7 img {
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.td7 a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.td7 a:hover {
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.td8 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+
+.comparativo_pag3 {
+    padding: 40px 50px;
+}
+
+.comparativo_pag3 h3 {
+    color: #48b158;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comparativo_pag3 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.comparativo_pag3 th, .comparativo_pag3 td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.comparativo_pag3 th {
+    background-color: #48b158;
+    color: white;
+}
+
+.comparativo_pag3 tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.destaque-brasil {
+    background-color: #eafaf1 !important;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.comparativo_pag3 td img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bandeiras {
+    text-align: center;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.bandeiras:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
