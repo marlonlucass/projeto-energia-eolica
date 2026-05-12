@@ -176,7 +176,7 @@ h2, h3 {
 
 .comparativo table {
     width: 100%;
-    border-collapse: collapse; /* Remove espaços entre as bordas */
+    border-collapse: collapse;
     margin-top: 10px;
 }
 
@@ -192,7 +192,7 @@ h2, h3 {
 }
 
 .comparativo tr:nth-child(even) {
-    background-color: #f9f9f9; /* Cria um efeito "zebrado" para facilitar a leitura */
+    background-color: #f9f9f9; 
 }
 
 html {
@@ -460,4 +460,70 @@ section {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 40px;
     padding-right: 50px;
+}
+
+
+.comparativo_pag3 {
+    padding: 40px 50px;
+}
+
+.comparativo_pag3 h3 {
+    color: #48b158;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comparativo_pag3 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.comparativo_pag3 th, .comparativo_pag3 td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.comparativo_pag3 th {
+    background-color: #48b158;
+    color: white;
+}
+
+.comparativo_pag3 tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.destaque-brasil {
+    background-color: #eafaf1 !important;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.comparativo_pag3 td img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bandeiras {
+    text-align: center;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.bandeiras:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: #48b158;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
